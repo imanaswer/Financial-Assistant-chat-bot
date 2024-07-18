@@ -1,0 +1,158 @@
+{
+    "intents": [
+      {
+        "tag": "welcome",
+        "patterns": [
+          "Hi", "Hello", "How are you", "whats up", "How do you do", "How’s the day?", "Hey are you there", "How is everything going", "glad to meet you"
+        ],
+        "responses": [
+          "Hello", "Glad to see you again", "Hi there, How can I help you", "Hello! What are you looking for?", "Hello, how may I help you?"
+        ]
+      },
+      {
+        "tag": "endingnote",
+        "patterns": [
+          "see you. bye", "Good Bye", "ok then bye", "That’s enough for me", "I'm leaving", "See you later! Goodbye", "nice to meet you", "The bargaining session was fun! I’m happy that I got it at a cheap price, see you again", "Enjoyed the experience, goodbye"
+        ],
+        "responses": [
+          "Hey, thank you for visiting", "Hope to see you again, it was nice talking with you", "Wish you a good day! Hope to talk with you later", "Thanks for your time with us. Hope you enjoyed it and are satisfied. See you later", "Sad to see you go. Come whenever you need to. Bye from us. Stay in touch."
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What's your name?", "Who are you?", "What can I call you", "Tell me your name", "Are you a robot", "Are you a chatbot"
+        ],
+        "responses": [
+          "It’s FinBot here, a digital financial assistant to help you out", "You can call me FinBot. I'm a chatbot, tell me what you need", "I’m FinBot, a digital financial assistant. I can guide you on our e-commerce website.", "It's FinBot here, a digital financial assistant. How may I help you?"
+        ]
+      },
+      {
+        "tag": "shopping",
+        "patterns": [
+          "I would like to buy something here", "Can I buy something", "What all things are there", "Can you recommend me something from here", "Is there anything cheaper here", "Hey, I want a black shoe"
+        ],
+        "responses": [
+          "Yes, please, we have a lot of new collections for you", "Of course, there are new offers for you, fantastic selections, choose what interests you!", "Well, casual shoes at Rs 220, this offer won’t last long", "There are good varieties of colored shoes too. Also, there are black formal shoes. Take one."
+        ]
+      },
+      {
+        "tag": "time period",
+        "patterns": [
+          "Till what time is this offered?", "When will the shop close?", "When will the shop open?", "How much time will it take for delivery?", "When will this site close?", "When are you people open?", "When will this store be open?", "Is this store open on Sunday?"
+        ],
+        "responses": [
+          "Our shop center is open from 9 am-9 pm every day", "Yes, we are operating all weekdays from 9 am to 9 pm", "We provide services from Monday to Sunday from 9 am to 9 pm", "We are open from 9 am-9 pm every day."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "What is your location?", "Where are you located?", "What is your address?", "Where is your restaurant situated?"
+        ],
+        "responses": [
+          "We are at the intersection of State Alley and Techno Avenue, Delhi, India", "We are situated at the intersection of State Alley and Techno Avenue in Delhi, India", "Our address is: 1000 Techno Avenue, Delhi, India"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "Will you accept a credit card?", "Can I pay by credit card?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard, and AMEX", "We accept most major credit cards"
+        ]
+      },
+      {
+        "tag": "todaysOffers",
+        "patterns": [
+          "What are the new collections for today?", "What new collections do you have today?", "Tell me today's collection"
+        ],
+        "responses": [
+          "We have a buy one get one offer for kurtis and shirts. Also, new color selections of traditional wear", "Our specialty for today is trendy new collections of traditional wear and a buy one get one offer for some items"
+        ]
+      },
+      {
+        "tag": "deliveryoption",
+        "patterns": [
+          "Do you provide home delivery?", "Do you deliver the clothes?", "What are the home delivery options?", "Tell me the delivery options you have"
+        ],
+        "responses": [
+          "Yes, we provide home delivery of the products through our agents", "We have home delivery options through our agents"
+        ]
+      },
+      {
+        "tag": "price of formal wear",
+        "patterns": [
+          "What is the price for a formal wear?", "How much will it cost to buy a formal wear?", "Will it be expensive to buy a branded suit? How much is the average cost?"
+        ],
+        "responses": [
+          "For a formal wear, it will cost in the range of 750-2500 Rs according to your selection", "There are a number of varieties of suits or formal wear ranging from 500-1500 Rs", "It's not much expensive to have the same. There are several discounts available", "It has an average cost of 1200 Rs"
+        ]
+      },
+      {
+        "tag": "price of a saree",
+        "patterns": [
+          "What is the price for a saree?", "How much will it cost to buy a saree?", "What is the cost of a saree?", "Cost of a saree", "Price of a saree"
+        ],
+        "responses": [
+          "The price of a saree depends upon the color and design", "We have collections of trending sarees ranging from 500 Rs to 10000 Rs"
+        ]
+      },
+      {
+        "tag": "thank you",
+        "patterns": [
+          "Thank you", "Thank you so much for your help"
+        ],
+        "responses": [
+          "It's my pleasure.", "You are welcome", "No problem. It's my pleasure to help you"
+        ]
+      },
+      {
+        "tag": "bargain offer",
+        "patterns": [
+          "Can I bargain for any product today?", "For what product do you have a bargaining offer today?", "Can you bargain today?", "Can I bargain today?", "Which product can I bargain today?", "Tell me if there is a product to bargain"
+        ],
+        "responses": [
+          "Yes, we have a bargaining offer for a ribbon today. Its rated price is 30 Rs", "Yes, today you can bargain for a ribbon. Its rated price is 30 Rs"
+        ]
+      },
+      {
+        "tag": "bitcoin",
+        "patterns": [
+          "Tell me the value of a bitcoin", "What is bitcoin?", "Can you tell me more about bitcoin?", "What can be bitcoin?", "What do you mean by bitcoin?"
+        ],
+        "responses": [
+          "1 Bitcoin equals 14,14,998.64 Indian Rupees", "Bitcoin is a digital or virtual currency created in 2009 that uses peer-to-peer technology to facilitate instant payments", "Bitcoin is a cryptocurrency created in 2009. Marketplaces called 'bitcoin exchanges' allow people to buy or sell bitcoins using different currencies"
+        ]
+      },
+      {
+        "tag": "asymmetric information",
+        "patterns": [
+          "What is asymmetric information?", "Tell me about asymmetric information in finance markets", "Do you know about asymmetric information?", "What can be asymmetric information?", "What do you mean by asymmetric information?"
+        ],
+        "responses": [
+          "It is a type of market failure that exists when one individual or party has much more information than another individual or party, and uses that advantage to exploit the other party.", "In finance, it refers to situations where a potential borrower (such as a small business) has better information on the likelihood that they will be able to repay a loan than the lender."
+        ]
+      },
+      {
+        "tag": "bail-out",
+        "patterns": [
+          "What is a bail-out?", "Do you know about bail-out in financial markets?", "Tell me about a bailout", "What do critics and supporters say about bail-out?", "Bail-out"
+        ],
+        "responses": [
+          "A bail-out happens when a government buys an equity stake in a bank or provides some other form of financial support to prevent it from failing", "Critics argue that it can increase the burden on taxpayers and also increase the risk of moral hazard. Supporters claim that bail-outs are sometimes necessary during a financial crisis to help reduce systemic risk.", "Bail-outs have become prominent once again because of the economic and social consequences of the coronavirus crisis."
+        ]
+      },
+      {
+        "tag": "balance sheet",
+        "patterns": [
+          "What is a balance sheet?", "Tell me about a balance sheet", "Do you know about a balance sheet?", "Balance sheet", "What can be a balance sheet?", "What do you mean by a balance sheet?"
+        ],
+        "responses": [
+          "A balance sheet is a statement of the assets, liabilities, and capital of a business or other organization at a particular point in time, detailing the balance of income and expenditure over the preceding period.", "It is one of the three fundamental financial statements, and is key to both financial modeling and accounting."
+        ]
+      }
+    ]
+  }
+  
